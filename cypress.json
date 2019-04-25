@@ -1,1 +1,10 @@
-{}
+{
+    "viewportWidth": 1280,
+    "viewportHeight": 1020,
+    "baseUrl": "http://saas.lan",
+    "defaultCommandTimeout": 30000,
+    "env" : {
+        "login_email" : "mnouet@sellsy.com",
+        "login_pwd" : "sellsy123"
+    }
+}
