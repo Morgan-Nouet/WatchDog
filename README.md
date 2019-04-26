@@ -4,13 +4,13 @@ Welcome to the watchdog readme
 
 To run watchdog you will need to do this next steps : 
 
-1: make a "npm install" from folder racine
+1: make a "npm install"
 
-2: run watchdog with "./Script/watchdog.sh" (always from folder racine)
+2: run watchdog with "./Script/watchdog.sh"
 
-3: If you have comparison CSS error watchdog create a folder "error" from project racine
+3: If you have comparison CSS error watchdog create a folder "error"
 
-Note : If you run watchdog for the first time you will need to run it a second time before you can perform a comparison
+Note : If you run watchdog for the first time you will need to run it a second time before you can make comparison
 
 Explenation : 
 - On the first run watchdog launch cypress and copy his screenshot folder into a new folder "reference".
