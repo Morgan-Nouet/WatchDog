@@ -78,7 +78,7 @@ describe('Watchdog', function() {
             var nbScreen = 0;
             for(var i = 0 ; i < 37; i++){
                 nbScreen++;
-                cy.screenshot("guide-"+nbScreen, {"capture":"runner"});
+                cy.screenshot("guide-"+nbScreen, {"capture":"viewport"});
                 scroll(px);
                 px+=950;
             }  
